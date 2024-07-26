@@ -3,7 +3,7 @@
 ## Front
 
 ### Info
-- HTTP Client `src/services/api.ts` is mainly from https://github.com/acacode/swagger-typescript-api, so there are some unused methods for this project
+- HTTP Client `src/services/api.ts` is mainly from https://github.com/acacode/swagger-typescript-api, and it's useful for more complex API requests, but some are unused for this project because we don't require query string, other content types, etc (yet).
 - Cart Storage is stored in browser local storage
 - Product list is stored in pinia store globally to be able to access from Cart
 -  User token is stored in browser local storage
@@ -27,6 +27,9 @@
 ![](assets/db_schema.png)
 
 ## Extras
+
+- Unfortunately, I didn't have time to have add swagger api documentation, and also docker compose for both front and back
+
 
 ### Tests Coverage
 
